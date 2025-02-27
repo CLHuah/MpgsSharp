@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>MpgsSharp</PackageId>
+    <Version>1.0.0</Version>
+    <Description>A .NET library for integrating with MasterCard Payment Gateway Services (MPGS)</Description>
+    <PackageTags>payment;mastercard;mpgs;gateway</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.2" PrivateAssets="all" />
+	<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.2" PrivateAssets="all" />
+	<PackageReference Include="Microsoft.Extensions.Http" Version="9.0.2" PrivateAssets="all" />
+	<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.2" PrivateAssets="all" />
+	<PackageReference Include="System.Text.Json" Version="9.0.2" PrivateAssets="all" />
+  </ItemGroup>
+</Project>
